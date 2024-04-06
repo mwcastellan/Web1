@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Titulo PRUEBA Curso</title>
+    <title>Titulo PRUEBA Curso: HEAD</title>
     <link rel="xxxxstylesheet" href="xxxxhttps://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link href="xxxxhttps://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="xxxxstylesheet">
     <link rel="stylesheet" href="css/styles.css">
@@ -13,19 +13,24 @@
 <body>
     <header class="header-principal">
        <h1>Header PRUEBA Curso</h1>
+       <p>Párrafo del Header</p>
     </header>
-    <div> 
-        <nav class="nav-principal">
-            <ul class="ul-principal"></ul>
+
+    <section class="section-principal"></section>
+        <h2>Section PRUEBA Curso</h2>
+        <p>Párrafo del Section</p>
+        <nav class="xnav-principal">
+            <h3>Nav PRUEBA Curso</h3>
+            <p>Párrafo del Nav</p>
+            <ul class="xul-principal"></ul>
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre nosotros</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#SobreNosotrosII">Sobre Nosotros II</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
             </ul>
         </nav>
-    </div>
-   
-   
-    <div class="contenedor contenedor-flex">
+    </section>
+
+    <section class="contenedor contenedor-flex">
         <main class="contenido-principal">
             <article>
                 <h1>Entrada del Blog</h1>
@@ -49,7 +54,7 @@
             </article>
         </main>
 
-        <aside class="sidebar">
+        <aside name="SobreNosotros" class="sidebar">
             <h2>Sobre Nosotros</h2>
             <p>Titulo Blog, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -59,7 +64,13 @@
             <p>Titulo Blog, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </aside>
-    </div>
+    </section>
+
+    <a name="SobreNosotrosII">
+        <h2>Sobre NosotrosII</h2>
+        <p>Titulo Blog, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </a>
 
 </body>
 
