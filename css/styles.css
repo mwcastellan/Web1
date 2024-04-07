@@ -20,7 +20,7 @@ h2 {
 }
 
 h3 {
-    font-size: 3.0rem;
+    font-size: 2.5rem;
 }
 
 p {
@@ -38,13 +38,13 @@ p {
     font-size: 1.5rem;
 }
 .ul-principal {
-    font-size: 1.0rem;
+    font-size: 1.5rem;
 }
 
 .contenedor {
     max-width: 1200px;
     width: 95%;
-    margin: 0 auto;
+    margin: 1 auto;
 }
 
 .entrada-blog  {
@@ -66,6 +66,7 @@ p {
     }
     /*calc() hace un cálculo matemático*/
     /*Ocupa el 60% y el 20% del contenedor respectivamente - 1 rem para dar espacio entre columnas*/
+
 .contacto {
     color:aquamarine
     }
