@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family:Calibri;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 img {
@@ -28,7 +28,7 @@ p {
 }
 
 .header-principal {
-    font-family:tahoma;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .section-principal {
@@ -82,5 +82,5 @@ p {
 }
  
 .footer-principal {
-    font-family:verdana;
+    font-family:'Courier New', Courier, monospace
 }
