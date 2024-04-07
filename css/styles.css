@@ -1,11 +1,10 @@
 html {
     font-size: 62.5%;
+    line-height: 1.0;
 }
 
 body {
     font-family:Calibri;
-    font-size: 1.6rem;
-    line-height: 1.2;
 }
 
 img {
@@ -17,15 +16,15 @@ h1 {
 }
 
 h2 {
-    font-size: 3.2rem;
+    font-size: 3.5rem;
 }
 
 h3 {
-    font-size: 2.6rem;
+    font-size: 3.0rem;
 }
 
 p {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .header-principal {
@@ -33,16 +32,13 @@ p {
 }
 
 .section-principal {
-    font-size: 1.0rem;
-    line-height: 1.2;
+    font-size: 1.7rem;
 }
 .nav-principal {
-    font-size: 1.0rem;
-    line-height: 1.2;
+    font-size: 1.5rem;
 }
 .ul-principal {
-    font-size: 0.5rem;
-    line-height: 1.2;
+    font-size: 1.0rem;
 }
 
 .contenedor {
@@ -51,14 +47,10 @@ p {
     margin: 0 auto;
 }
 
-.entrada-blog a {
+.entrada-blog  {
     display: inline-block;
-    background-color: #2196F3;
+    background-color:blue;
     color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
@@ -74,4 +66,7 @@ p {
     }
     /*calc() hace un cálculo matemático*/
     /*Ocupa el 60% y el 20% del contenedor respectivamente - 1 rem para dar espacio entre columnas*/
+.contacto {
+    color:aquamarine
+    }
 }
