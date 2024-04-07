@@ -53,6 +53,15 @@ p {
     color: white;
 }
 
+.grid-container {
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    background-color:blueviolet;
+    padding: 10px;
+    }
+
 @media (min-width: 768px) {
     .contenedor-flex {
         display: flex;
@@ -70,4 +79,8 @@ p {
 .contacto {
     color:aquamarine
     }
+}
+ 
+.footer-principal {
+    font-family:verdana;
 }
