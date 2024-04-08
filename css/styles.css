@@ -1,44 +1,49 @@
 html {
-    font-size: 62.5%;
     line-height: 1.0;
 }
 
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:calibri;
 }
 
 img {
     max-width: 100%;
 }
 
-h1 {
-    font-size: 4rem;
+h1{
+    font-size: 2.5rem;
 }
 
 h2 {
-    font-size: 3.5rem;
+    font-size: 2.3rem;
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
 }
 
 p {
-    font-size: 2.5rem;
+    font-size: 1.9rem;
 }
-
+ 
 .header-principal {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:tahoma;
+    background-color:aqua;
 }
 
 .section-principal {
     font-size: 1.7rem;
+    background-color:bisque;
 }
+
 .nav-principal {
     font-size: 1.5rem;
+    background-color:brown;
 }
+
 .ul-principal {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    background-color:blueviolet;
 }
 
 .contenedor {
@@ -47,7 +52,7 @@ p {
     margin: 1 auto;
 }
 
-.entrada-blog  {
+.entrada-blog {
     display: inline-block;
     background-color:blue;
     color: white;
@@ -75,11 +80,10 @@ p {
     }
     /*calc() hace un cálculo matemático*/
     /*Ocupa el 60% y el 20% del contenedor respectivamente - 1 rem para dar espacio entre columnas*/
-
+}
 .contacto {
     color:aquamarine
     }
-}
  
 .footer-principal {
     font-family:'Courier New', Courier, monospace
