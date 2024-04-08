@@ -26,6 +26,11 @@ p {
     font-size: 1.9rem;
 }
  
+.exampleMedia {
+    padding: 20px;
+    color: white;
+    }
+
 .header-principal {
     font-family:tahoma;
     background-color:aqua;
@@ -81,6 +86,29 @@ p {
     /*calc() hace un cálculo matemático*/
     /*Ocupa el 60% y el 20% del contenedor respectivamente - 1 rem para dar espacio entre columnas*/
 }
+
+/* Extra */ 
+    /* Small devices (600px and down) */
+@media only screen and (max-width: 600px) {
+    .exampleMedia {background: red;}
+    }
+    /* Small devices (600px and up) */
+    @media only screen and (min-width: 600px) {
+    .exampleMedia {background: green;}
+    }
+    /* Medium devices (768px and up) */
+    @media only screen and (min-width: 768px) {
+    .exampleMedia {background: blue;}
+    }
+    /* Large devices (992px and up) */
+    @media only screen and (min-width: 992px) {
+    .exampleMedia {background: orange;}
+    }
+    /* Extra large devices (1200px and up) */
+    @media only screen and (min-width: 1200px) {
+    .exampleMedia {background: pink;}
+    }
+
 .contacto {
     color:aquamarine
     }
