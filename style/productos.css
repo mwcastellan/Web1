@@ -31,9 +31,8 @@
   -o-border-radius: 50%;
   padding: 0 10px;
   border: 1px solid rgb(200, 240, 240);
-  width:min-content;
-  height:min-content;
-  box-sizing:border-box;
+  width:33%;
+  height:25%;
 }
 
 .Producto h4 {
