@@ -29,8 +29,8 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  width: 30%;
-  height: 30%;
+  width:fit-content;
+  height:fit-content;
   padding: 0 10px;
   border: 1px solid rgb(200, 240, 240);
 }
