@@ -5,6 +5,8 @@
 
 * {
   box-sizing: border-box;
+   /* para WEB1 */
+   background-color:blueviolet;
 }
 
 body {
@@ -12,6 +14,7 @@ body {
   overflow-x: hidden;
   color: black;
   font-family: "Poppins", sans-serif;
+ 
 }
 
 main {
